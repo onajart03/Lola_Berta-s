@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Sample</string>
+    <string name="description_sort_button">Sort items</string>
+    <string name="description_scrollable_content">Scrollable content area</string>
+
+
+    <string name="whole_lechon">Whole Lechon</string>
+    <string name="extra_small">Extra small</string>
+    <string name="extra_small_desc">Approximately 6-8 kilos Good for 20 pax</string>
+    <string name="small">Small</string>
+    <string name="small_desc">Approximately 8-10 kilos Good for 30-40 pax</string>
+    <string name="medium">Medium</string>
+    <string name="medium_desc">Approximately 11-13 kilos Good for 40-50 pax</string>
+    <string name="large">Large</string>
+    <string name="large_desc">Approximately 14-16 kilos Good for 50-60 pax</string>
+    <string name="extra_large">Extra Large</string>
+    <string name="extra_large_desc">Approximately 17-20 kilos Good for 60-70 pax</string>
+    <string name="lechon_belly">Lechon Belly</string>
+    <string name="medium_desc_belly">Good for 16-18 pax</string>
+    <string name="large_desc_belly">Good for 22-24 pax</string>
+    <string name="extra_large_desc_belly">Good for 32+ pax</string>
+    <string name="whole_lechon_package">Whole Lechon Package</string>
+    <string name="whole_lechon_package_desc">Good for 30 pax Whole lechon Pamilya Pancit Bilao (choice of chicken or seafood) Choice of Pamilya seafood paella or Pamilya kimchi rice with sweet spam Pamilya Seafood Bilao (choice of tuna set or bangus set)</string>
+    <string name="lechon_belly_package">Lechon Belly Package</string>
+    <string name="lechon_belly_package_desc">Good for 15 pax Lechon belly Pamilya Pancit Bilao (choice of chicken or seafood) Choice of Pamilya seafood paella or Pamilya kimchi rice with sweet spam Pamilya Seafood Bilao (choice of tuna set or bangus set)</string>
+    <string name="bilao">Bilao Package</string>>
+
+    <string name="about_us_title">&lt;&lt; About Us &gt;&gt;</string>
+    <string name="our_history">Our History</string>
+    <string name="image_about_us">Image representing about us</string>
+    <string name="legacy_description">D’ Original Lola Berta’s Lechon honors the legacy of Lamberta Tañga vda de Ramos, fondly known as "Lola Berta," the esteemed matriarch of the Tañga family in Pateros, Rizal. With a discerning eye for excellence, Lola Berta traversed distant provinces to personally select prime pigs for her customers.</string>
+    <string name="image_tradition">Image representing traditional lechon preparation</string>
+    <string name="tradition_description">Upon returning to the family compound in Pateros, these carefully chosen pigs were prepared only upon order, ensuring unparalleled freshness and delight for patrons. Each lechon is meticulously stuffed with fragrant banana leaves and slow-roasted in the time-honored tradition over smoldering charcoal pits, resulting in a perfect harmony of consistency and quality.</string>
+
+    <string name="phone_number">Phone Number</string>
+    <string name="email">Email</string>
+    <string name="address">Address</string>
+
+    <string name="about_us">About Us</string>
+    <string name="account">Account</string>
+    <string name="home">Home</string>
+
+    <string name="logo_description">image</string>
+    <string name="password_field_description">password</string>
+    <string name="password">password</string>
+    <string name="logout_button_description">logout</string>
+</resources>
