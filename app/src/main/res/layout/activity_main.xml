@@ -447,7 +447,7 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="439dp"
+                android:layout_height="358dp"
                 android:layout_marginTop="10dp"
                 android:background="@drawable/black_border"
                 android:orientation="horizontal">
@@ -499,7 +499,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="50dp"
-        android:layout_marginBottom="15dp"
         android:backgroundTint="#000000"
         android:onClick="openAboutUs"
         android:text="@string/about_us"
@@ -512,7 +511,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="50dp"
-        android:layout_marginBottom="15dp"
         android:backgroundTint="#000000"
         android:onClick="openaccountProfile"
         android:text="@string/account"
@@ -535,7 +533,6 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
         android:layout_marginEnd="10dp"
-        android:layout_marginBottom="12dp"
         android:backgroundTint="#FDE77B"
         android:contentDescription="@string/description_sort_button"
         app:layout_constraintBottom_toBottomOf="parent"
