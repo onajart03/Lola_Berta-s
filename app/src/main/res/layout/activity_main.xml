@@ -47,7 +47,7 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="100dp"
+                    android:layout_height="139dp"
                     android:layout_marginBottom="8dp"
                     android:elevation="4dp"
                     android:orientation="horizontal"
@@ -75,6 +75,12 @@
                             android:textSize="14sp"
                             tools:ignore="TextSizeCheck" />
 
+                        <Button
+                            android:id="@+id/button7"
+                            android:layout_width="match_parent"
+                            android:layout_height="48dp"
+                            android:text="add" />
+
                     </LinearLayout>
 
                     <ImageView
@@ -96,7 +102,7 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="100dp"
+                    android:layout_height="141dp"
                     android:layout_marginBottom="8dp"
                     android:elevation="4dp"
                     android:orientation="horizontal"
@@ -123,6 +129,12 @@
                             android:textSize="14sp"
                             tools:ignore="TextSizeCheck" />
 
+                        <Button
+                            android:id="@+id/button8"
+                            android:layout_width="match_parent"
+                            android:layout_height="48dp"
+                            android:text="add" />
+
                     </LinearLayout>
 
                     <ImageView
@@ -144,7 +156,7 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="100dp"
+                    android:layout_height="133dp"
                     android:layout_marginBottom="8dp"
                     android:elevation="4dp"
                     android:orientation="horizontal"
@@ -171,6 +183,12 @@
                             android:textSize="14sp"
                             tools:ignore="TextSizeCheck" />
 
+                        <Button
+                            android:id="@+id/button9"
+                            android:layout_width="match_parent"
+                            android:layout_height="48dp"
+                            android:text="add" />
+
                     </LinearLayout>
 
                     <ImageView
@@ -192,7 +210,7 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="100dp"
+                    android:layout_height="139dp"
                     android:layout_marginBottom="8dp"
                     android:elevation="4dp"
                     android:orientation="horizontal"
@@ -219,6 +237,11 @@
                             android:textSize="14sp"
                             tools:ignore="TextSizeCheck" />
 
+                        <Button
+                            android:id="@+id/button10"
+                            android:layout_width="match_parent"
+                            android:layout_height="48dp"
+                            android:text="add" />
                     </LinearLayout>
 
                     <ImageView
@@ -240,7 +263,7 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="100dp"
+                    android:layout_height="139dp"
                     android:layout_marginBottom="8dp"
                     android:elevation="4dp"
                     android:orientation="horizontal"
@@ -263,16 +286,15 @@
                             android:layout_width="170dp"
                             android:layout_height="54dp"
                             android:lineSpacingExtra="4dp"
-                            android:text="@string/extra_large_desc_belly"
+                            android:text="@string/extra_large_desc"
                             android:textSize="14sp"
                             tools:ignore="TextSizeCheck" />
 
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="@string/extra_large"
-                            android:textSize="18sp"
-                            android:textStyle="bold" />
+                        <Button
+                            android:id="@+id/button11"
+                            android:layout_width="match_parent"
+                            android:layout_height="48dp"
+                            android:text="add" />
 
                         <TextView
                             android:layout_width="170dp"
@@ -308,7 +330,7 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="252dp"
+                android:layout_height="292dp"
                 android:layout_marginTop="10dp"
                 android:background="@drawable/black_border"
                 android:orientation="horizontal">
@@ -323,7 +345,7 @@
 
                     <LinearLayout
                         android:layout_width="376dp"
-                        android:layout_height="244dp"
+                        android:layout_height="272dp"
                         android:layout_weight="1"
                         android:orientation="vertical">
 
@@ -336,12 +358,19 @@
                             android:textStyle="bold" />
 
                         <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="54dp"
+                            android:layout_width="178dp"
+                            android:layout_height="wrap_content"
                             android:lineSpacingExtra="4dp"
                             android:text="@string/extra_large_desc_belly"
                             android:textSize="14sp"
                             tools:ignore="TextSizeCheck" />
+
+                        <Button
+                            android:id="@+id/button12"
+                            android:layout_width="100dp"
+                            android:layout_height="40dp"
+                            android:text="add"
+                            tools:ignore="TouchTargetSizeCheck" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -351,12 +380,19 @@
                             android:textStyle="bold" />
 
                         <TextView
-                            android:layout_width="170dp"
-                            android:layout_height="54dp"
+                            android:layout_width="168dp"
+                            android:layout_height="wrap_content"
                             android:lineSpacingExtra="4dp"
                             android:text="@string/medium_desc_belly"
                             android:textSize="14sp"
                             tools:ignore="TextSizeCheck" />
+
+                        <Button
+                            android:id="@+id/button13"
+                            android:layout_width="100dp"
+                            android:layout_height="40dp"
+                            android:text="add"
+                            tools:ignore="TouchTargetSizeCheck" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -366,19 +402,25 @@
                             android:textStyle="bold" />
 
                         <TextView
-                            android:layout_width="170dp"
-                            android:layout_height="54dp"
+                            android:layout_width="163dp"
+                            android:layout_height="wrap_content"
                             android:lineSpacingExtra="4dp"
                             android:text="@string/extra_large_desc_belly"
                             android:textSize="14sp"
                             tools:ignore="TextSizeCheck" />
+
+                        <Button
+                            android:id="@+id/button14"
+                            android:layout_width="100dp"
+                            android:layout_height="48dp"
+                            android:text="add" />
 
                     </LinearLayout>
 
                     <ImageView
                         android:id="@+id/imageView14"
                         android:layout_width="wrap_content"
-                        android:layout_height="244dp"
+                        android:layout_height="276dp"
                         android:layout_weight="1"
                         app:srcCompat="@drawable/lechonbelly" />
 
@@ -399,7 +441,7 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="504dp"
                 android:layout_marginTop="10dp"
                 android:background="@drawable/black_border"
                 android:orientation="horizontal">
@@ -432,6 +474,12 @@
                             android:text="@string/whole_lechon_package_desc"
                             android:textSize="14sp"
                             tools:ignore="TextSizeCheck" />
+
+                        <Button
+                            android:id="@+id/button15"
+                            android:layout_width="match_parent"
+                            android:layout_height="48dp"
+                            android:text="add" />
 
                         <ImageView
                             android:id="@+id/imageView16"
@@ -480,6 +528,12 @@
                             android:text="@string/lechon_belly_package_desc"
                             android:textSize="14sp"
                             tools:ignore="TextSizeCheck" />
+
+                        <Button
+                            android:id="@+id/button16"
+                            android:layout_width="match_parent"
+                            android:layout_height="48dp"
+                            android:text="add" />
 
                         <ImageView
                             android:id="@+id/imageView18"
@@ -535,6 +589,7 @@
         android:layout_marginEnd="10dp"
         android:backgroundTint="#FDE77B"
         android:contentDescription="@string/description_sort_button"
+        android:onClick="openmycart"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/button4"
         app:layout_constraintHorizontal_bias="1.0"

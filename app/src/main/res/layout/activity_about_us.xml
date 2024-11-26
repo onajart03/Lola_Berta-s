@@ -18,6 +18,7 @@
         android:layout_marginBottom="12dp"
         android:backgroundTint="#FDE77B"
         android:contentDescription="@string/description_sort_button"
+        android:onClick="openmycart"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/button4"
         app:layout_constraintHorizontal_bias="1.0"
