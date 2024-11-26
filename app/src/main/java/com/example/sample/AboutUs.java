@@ -32,4 +32,9 @@ public class AboutUs extends AppCompatActivity {
 
         startActivity(new Intent(this, home.class));
     }
+
+
+    public void openmycart(View view) {
+        startActivity(new Intent(this, mycart.class));
+    }
 }

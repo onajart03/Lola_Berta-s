@@ -34,4 +34,6 @@ public class MainActivity extends AppCompatActivity {
     public void openLogin(View view) {
         startActivity(new Intent(this, Login.class));
     }
+
+
 }
