@@ -139,7 +139,7 @@
         android:background="@drawable/editedtxt_background"
         android:ems="10"
         android:inputType="text"
-        android:text="Username"
+        android:text="Email Account"
         android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

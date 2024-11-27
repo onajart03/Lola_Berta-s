@@ -78,6 +78,8 @@
                         <Button
                             android:id="@+id/button7"
                             android:layout_width="match_parent"
+                            android:backgroundTint="#000000"
+                            android:textColor="#FFA500"
                             android:layout_height="48dp"
                             android:text="add" />
 
@@ -133,6 +135,8 @@
                             android:id="@+id/button8"
                             android:layout_width="match_parent"
                             android:layout_height="48dp"
+                            android:backgroundTint="#000000"
+                            android:textColor="#FFA500"
                             android:text="add" />
 
                     </LinearLayout>
@@ -187,6 +191,8 @@
                             android:id="@+id/button9"
                             android:layout_width="match_parent"
                             android:layout_height="48dp"
+                            android:backgroundTint="#000000"
+                            android:textColor="#FFA500"
                             android:text="add" />
 
                     </LinearLayout>
@@ -241,6 +247,8 @@
                             android:id="@+id/button10"
                             android:layout_width="match_parent"
                             android:layout_height="48dp"
+                            android:backgroundTint="#000000"
+                            android:textColor="#FFA500"
                             android:text="add" />
                     </LinearLayout>
 
@@ -294,6 +302,8 @@
                             android:id="@+id/button11"
                             android:layout_width="match_parent"
                             android:layout_height="48dp"
+                            android:backgroundTint="#000000"
+                            android:textColor="#FFA500"
                             android:text="add" />
 
                         <TextView
@@ -369,6 +379,8 @@
                             android:id="@+id/button12"
                             android:layout_width="100dp"
                             android:layout_height="40dp"
+                            android:backgroundTint="#000000"
+                            android:textColor="#FFA500"
                             android:text="add"
                             tools:ignore="TouchTargetSizeCheck" />
 
@@ -391,6 +403,8 @@
                             android:id="@+id/button13"
                             android:layout_width="100dp"
                             android:layout_height="40dp"
+                            android:backgroundTint="#000000"
+                            android:textColor="#FFA500"
                             android:text="add"
                             tools:ignore="TouchTargetSizeCheck" />
 
@@ -413,6 +427,8 @@
                             android:id="@+id/button14"
                             android:layout_width="100dp"
                             android:layout_height="48dp"
+                            android:backgroundTint="#000000"
+                            android:textColor="#FFA500"
                             android:text="add" />
 
                     </LinearLayout>
@@ -479,6 +495,8 @@
                             android:id="@+id/button15"
                             android:layout_width="match_parent"
                             android:layout_height="48dp"
+                            android:backgroundTint="#000000"
+                            android:textColor="#FFA500"
                             android:text="add" />
 
                         <ImageView
@@ -495,7 +513,7 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="358dp"
+                android:layout_height="433dp"
                 android:layout_marginTop="10dp"
                 android:background="@drawable/black_border"
                 android:orientation="horizontal">
@@ -533,7 +551,9 @@
                             android:id="@+id/button16"
                             android:layout_width="match_parent"
                             android:layout_height="48dp"
-                            android:text="add" />
+                            android:backgroundTint="#000000"
+                            android:text="add"
+                            android:textColor="#FFA500" />
 
                         <ImageView
                             android:id="@+id/imageView18"
@@ -549,14 +569,23 @@
     </ScrollView>
 
     <Button
+        android:id="@+id/button17"
+        android:layout_width="392dp"
+        android:layout_height="54dp"
+        android:backgroundTint="#FCE67B"
+        android:contentDescription="@string/description_sort_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="50dp"
         android:backgroundTint="#000000"
+        android:textColor="#FFA500"
         android:onClick="openAboutUs"
         android:text="@string/about_us"
-        android:textColor="#FFA500"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
