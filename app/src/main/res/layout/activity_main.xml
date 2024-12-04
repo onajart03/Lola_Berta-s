@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background"
-    tools:context=".MainActivity">
+    tools:context=".Activity.MainActivity">
 
 
     <ScrollView
@@ -76,7 +76,7 @@
                             tools:ignore="TextSizeCheck" />
 
                         <Button
-                            android:id="@+id/button7"
+                            android:id="@+id/addExtraSmall"
                             android:layout_width="match_parent"
                             android:backgroundTint="#000000"
                             android:textColor="#FFA500"

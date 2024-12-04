@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "920410858295",
+    "project_id": "lola-berta-s-a7999",
+    "storage_bucket": "lola-berta-s-a7999.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:920410858295:android:d982096261d296f474f0b2",
+        "android_client_info": {
+          "package_name": "com.example.sample"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAjbN8luJFEIduyXGc5V99LFwg7pjkcw4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
