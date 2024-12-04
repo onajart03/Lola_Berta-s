@@ -1,4 +1,4 @@
-package com.example.sample;
+package com.example.sample.Activity;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -10,13 +10,15 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-public class home extends AppCompatActivity {
+import com.example.sample.R;
+
+public class signup extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_signup);
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
@@ -24,17 +26,11 @@ public class home extends AppCompatActivity {
         });
     }
 
-    public void openaccountProfile(View view) {
-        startActivity(new Intent(this, accountProfile.class));
+    public void openLogin(View view) {
+        startActivity(new Intent(this, Login.class));
     }
 
-
-    public void openAboutUs(View view) {
-        startActivity(new Intent(this,AboutUs.class));
-    }
-    public void openmycart(View view) {
-        startActivity(new Intent(this, mycart.class));
+    public void openMainActivity(View view) {
+        startActivity(new Intent(this, MainActivity.class));
     }
 }
-
-
