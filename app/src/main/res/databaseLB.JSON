@@ -1,0 +1,84 @@
+{
+  "Foods": [
+    {
+      "whole lechon": true,
+      "whole lechon category": 1,
+      "Description": "Approximately 6-8 kilos Good for 20 pax",
+      "Id": 1,
+      "Price": 8000,
+      "Title": "Extra small"
+    },
+    {
+      "whole lechon": true,
+      "whole lechon category": 2,
+      "Description": "Approximately 8-10 kilos Good for 30-40 pax",
+      "Id": 2,
+      "Price": 8500,
+      "Title": "small"
+    },
+    {
+      "whole lechon": true,
+      "whole lechon category": 3,
+      "Description": "Approximately 11-13 kilos Good for 40-50 pax",
+      "Id": 3,
+      "Price": 9500,
+      "Title": "medium"
+    },
+    {
+      "whole lechon": true,
+      "whole lechon category": 4,
+      "Description": "Approximately 14-16 kilos Good for 50-60 pax",
+      "Id": 4,
+      "Price": 10500,
+      "Title": "Large"
+    },
+    {
+      "whole lechon": true,
+      "whole lechon category": 5,
+      "Description": "Approximately 17-20 kilos Good for 60-70 pax",
+      "Id": 5,
+      "Price": 115000,
+      "Title": "Extra Large"
+    },
+    {
+      "Lechon Belly": true,
+      "Lechon Belly category": 1,
+      "Description": "Good for 16-18 pax",
+      "Id": 6,
+      "Price": 2700,
+      "Title": "medium"
+    },
+    {
+      "Lechon Belly": true,
+      "Lechon Belly category": 2,
+      "Description": "Good for 22-24 pax",
+      "Id": 7,
+      "Price": 3600,
+      "Title": "Large"
+    },
+    {
+      "Lechon Belly": true,
+      "Lechon Belly category": 3,
+      "Description": "Good for 32+ pax",
+      "Id": 8,
+      "Price": 4500,
+      "Title": "Extra Large"
+    },
+    {
+      "Bilao Package": true,
+      "Bilao Package category": 1,
+      "Description": "Good for 30 pax Whole lechon Pamilya Pancit Bilao (choice of chicken or seafood) Choice of Pamilya seafood paella or Pamilya kimchi rice with sweet spam Pamilya Seafood Bilao (choice of tuna set or bangus set",
+      "Id": 9,
+      "Price": 2700,
+      "Title": "Whole Lechon Package"
+    },
+    {
+      "Bilao Package": true,
+      "Bilao Package category": 2,
+      "Description": "Good for 15 pax Lechon belly Pamilya Pancit Bilao (choice of chicken or seafood) Choice of Pamilya seafood paella or Pamilya kimchi rice with sweet spam Pamilya Seafood Bilao (choice of tuna set or bangus set",
+      "Id": 10,
+      "Price": 3600,
+      "Title": "Lechon Belly Package"
+    }
+  ]
+}
