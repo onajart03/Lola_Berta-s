@@ -163,7 +163,8 @@
                 android:layout_height="wrap_content"
                 android:textColor="#FFA500"
                 android:backgroundTint="#000000"
-                android:text="Place Order" />
+                android:onClick="openselectPayment"
+                android:text="Select Payment" />
         </LinearLayout>
     </ScrollView>
 

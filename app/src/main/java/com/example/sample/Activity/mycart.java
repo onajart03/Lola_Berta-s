@@ -27,9 +27,7 @@ public class mycart extends AppCompatActivity {
         setContentView(R.layout.activity_mycart);
 
         // Log the cart contents to confirm items are added correctly
-        for (Foods food : CartManager.getInstance().getCartItems()) {
-            Log.d("CartManager", "Item: " + food.getTitle() + ", Price: " + food.getPrice());
-        }
+
 
 
         // Initialize RecyclerView
@@ -65,5 +63,9 @@ public class mycart extends AppCompatActivity {
 
     public void openaccountProfile(View view) {
         startActivity(new Intent(this, accountProfile.class));
+    }
+
+    public void openselectPayment(View view) {
+        startActivity(new Intent(this, selectPayment.class));
     }
 }
